@@ -1,1 +1,1 @@
-# Themis
+# scala-project-seed
