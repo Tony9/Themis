@@ -12,7 +12,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel
 /**
   * Created by Tony on 2017/12/25.
   */
-object SocketTextStreamWordServerTest {
+object WordServerTest {
 
   def main(args: Array[String]) {
 

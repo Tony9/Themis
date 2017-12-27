@@ -3,7 +3,7 @@ package me.tony9.test.flink
 import org.apache.flink.streaming.api.scala._
 
 
-object SocketTextStreamWordCountTest {
+object WordCountStreamingTest {
 
   def main(args: Array[String]) {
 
