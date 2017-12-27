@@ -1,4 +1,4 @@
-package me.tony9.test.flink
+package me.tony9.test.flink.batch
 
 import org.apache.flink.api.scala._
 import org.apache.flink.table.api.TableEnvironment

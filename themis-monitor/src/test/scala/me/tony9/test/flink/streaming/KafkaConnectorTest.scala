@@ -1,4 +1,4 @@
-package me.tony9.test.flink
+package me.tony9.test.flink.streaming
 
 import org.apache.flink.api.scala.ExecutionEnvironment
 import org.scalatest.{FlatSpec, Matchers}

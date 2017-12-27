@@ -1,4 +1,4 @@
-package me.tony9.test.flink
+package me.tony9.test.flink.streaming
 
 import org.apache.flink.streaming.api.scala._
 

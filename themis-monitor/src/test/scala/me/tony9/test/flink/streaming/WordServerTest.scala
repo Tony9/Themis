@@ -1,6 +1,4 @@
-package me.tony9.test.flink
-
-import java.io.File
+package me.tony9.test.flink.streaming
 
 import io.netty.bootstrap.ServerBootstrap
 import io.netty.buffer.ByteBuf
