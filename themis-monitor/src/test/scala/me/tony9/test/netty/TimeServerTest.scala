@@ -5,7 +5,6 @@ import io.netty.channel._
 import io.netty.channel.nio.NioEventLoopGroup
 import io.netty.channel.socket.SocketChannel
 import io.netty.channel.socket.nio.NioServerSocketChannel
-import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 
 /**
   * Created by Tony on 2017/12/25.

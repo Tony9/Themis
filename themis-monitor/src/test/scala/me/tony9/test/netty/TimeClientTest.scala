@@ -56,7 +56,8 @@ object TimeClientTest {
       override def channelRead(ctx: ChannelHandlerContext, msg: Object): Unit = {
         val m = msg.asInstanceOf[ByteBuf]
         try {
-          val currentTimeMillis = (m.readUnsignedInt() - 2208988800L) * 1000L;
+          val t = m.readUnsignedInt()
+          val currentTimeMillis = (t - 2208988800L) * 1000L;
           System.out.println(new Date(currentTimeMillis));
           ctx.close();
         } finally {
