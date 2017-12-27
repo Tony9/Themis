@@ -58,7 +58,7 @@ object WordServerTest {
         buf.writeBytes(ws.nextLine().getBytes)
         ctx.writeAndFlush(buf)
 
-        Thread.sleep(1000)
+        Thread.sleep(30)
       }
 
     }
